@@ -45,7 +45,7 @@ fn game(n: usize, state: usize, mut k: i32, markov_chain: &Array2<f64>, filename
 }
 
 fn main() {
-    let n: usize = 1001;
+    let n: usize = 1002;
     let k: i32 = 1000;
 
     let markov_chain = generate_markov_chain(n);
